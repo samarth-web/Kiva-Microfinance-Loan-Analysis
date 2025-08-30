@@ -16,8 +16,7 @@ This project analyzes Kiva’s microfinance loans to identify patterns in fundin
 
 ## Dataset
 - Source: Kiva “Data Science for Good” (Kaggle).
-- https://www.kaggle.com/datasets/kiva/data-science-for-good-kiva-crowdfunding/code
 - Note: The raw CSVs are large (>100MB) and **not included** in this repository.
 - To reproduce:
-  1. Download the dataset from Kaggle.
+  1. Download the dataset from Kaggle (https://www.kaggle.com/datasets/kiva/data-science-for-good-kiva-crowdfunding/code).
    2. Place files under `data/` (this folder is `.gitignore`’d).
