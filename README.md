@@ -12,7 +12,7 @@ This project analyzes Kiva’s microfinance loans to identify patterns in fundin
 - Trade-off: **low precision (~15%)** for underfunded loans → many false alarms.
 - Fully funded loans show **very high precision (~97%)** with moderate recall (~68%).
 - Funding risk concentrates in specific **sectors** (e.g., Agriculture, Retail) and **countries** (e.g., El Salvador, Kenya).
-- Conclusion: The model works as an **early-warning system**, useful for triage; further tuning can reduce false positives.
+- Conclusion: The model works as an **early-warning system**, further use of sentimental analysis (reason for loan) can further reduce false positives, leading to higher precision.
 
 ## Dataset
 - Source: Kiva “Data Science for Good” (Kaggle).
